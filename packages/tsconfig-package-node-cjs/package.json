@@ -1,0 +1,29 @@
+{
+  "name": "@themagician/tsconfig-package-node-cjs",
+  "version": "1.0.0",
+  "description": "A base tsconfig configuration for a node package project for a cjs build, that you can override.",
+  "main": "tsconfig.json",
+  "scripts": {
+    "lint": "eslint tsconfig.json",
+    "fix": "eslint tsconfig.json --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMagicianDev/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig-package-node-cjs",
+    "cjs",
+    "commonjs",
+    "package",
+    "nodejs",
+    "tsconfig",
+    "base",
+    "extends",
+    "TheMagician",
+    "TheMagicianProject",
+    "TheMagicianDev"
+  ],
+  "author": "TheMagician <themagicianproject2022@gmail.com>, Mohamed Lamine Allal <allalmohamedlamine@gmail.com>",
+  "license": "MIT"
+}

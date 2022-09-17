@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      glob: '{**/*.ts, packages/**/*, .eslintrc.json, tsconfig.json, .prettierrc, lefthook.yml, package.json, .eslintignore }'
+      run: pnpm run lint
+commit-msg:
+  parallel: true
+  commands:
+    commitlint:
+      run: pnpm run commitlint
