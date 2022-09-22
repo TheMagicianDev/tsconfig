@@ -1,8 +1,8 @@
 {
   "name": "@themagician/tsconfig",
   "version": "1.0.0",
-  "description": "Different Base tsconfig configurations used by The Magician Project. You can check otherwise @tsconfig project that is like @types for tsconfig. Know too that having a personal base files can be always more productive.",
   "private": false,
+  "description": "Different Base tsconfig configurations used by The Magician Project. You can check otherwise @tsconfig project that is like @types for tsconfig. Know too that having a personal base files can be always more productive.",
   "keywords": [
     "tsconfig",
     "base",
@@ -18,22 +18,31 @@
   "license": "MIT",
   "author": "TheMagician <themagicianproject2022@gmail.com>, Mohamed Lamine Allal <allalmohamedlamine@gmail.com>",
   "scripts": {
-    "prepare": "npx lefthook install",
-    "lint": "turbo run lint",
-    "fix": "turbo run format --parallel",
     "commitlint": "npx commitlint --edit",
-    "publish": "turbo run publish",
-    "lefthook:update": "npx lefthook install"
+    "fix": "turbo run format --parallel",
+    "lefthook:update": "npx lefthook install",
+    "lint": "turbo run lint",
+    "prepare": "npx lefthook install",
+    "publish": "turbo run publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.24.4",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@types/dedent": "^0.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.37.0",
+    "dedent": "^0.7.0",
     "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsonc": "^2.4.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "fast-glob": "^3.2.12",
     "lefthook": "^1.1.1",
+    "md-2-json": "^2.0.0",
     "prettier": "^2.7.1",
     "turbo": "^1.4.7",
     "typescript": "^4.7.4"
