@@ -1,6 +1,6 @@
 {
   "name": "@themagician/tsconfig-jest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A base tsconfig configuration for jest that you can override.",
   "main": "tsconfig.json",
   "scripts": {
