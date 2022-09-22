@@ -2,6 +2,7 @@
   "name": "@themagician/tsconfig",
   "version": "1.0.0",
   "description": "Different Base tsconfig configurations used by The Magician Project. You can check otherwise @tsconfig project that is like @types for tsconfig. Know too that having a personal base files can be always more productive.",
+  "private": false,
   "keywords": [
     "tsconfig",
     "base",
