@@ -29,37 +29,46 @@ files.forEach((file) => {
     console.log('File: ' + file);
     const parsedMd = md2json.parse(content)
     // const headline = parsedMd[Object.keys(parsedMd)[0]]
-    // headline.raw = `![the magician ${name} banner](./imgs/banner.png)\n\n[repo](https://github.com/TheMagicianDev/tsconfig), [npm](https://www.npmjs.com/package/@themagician/${name})\n${headline.raw}`
+    // headline.raw = `![the magician ${name} banner](/packages/${name}/imgs/banner.png)\n\n[repo](https://github.com/TheMagicianDev/tsconfig), [npm](https://www.npmjs.com/package/@themagician/${name})\n${headline.raw}`
 
     const tsconfigJsonContent = await tsconfigJsonPromise
 
-    parsedMd['Usage:'] = {
-      raw: dedent`\n
-        Install the package:
+    // parsedMd['Usage:'] = {
+    //   raw: dedent`\n
+    //     Install the package:
 
-        \`\`\`sh
-        npm install @themagician/tsconfig-base -D
-        yarn add @themagician/tsconfig-base -D
-        pnpm add @themagician/tsconfig-base -D
-        \`\`\`
+    //     \`\`\`sh
+    //     npm install @themagician/tsconfig-base -D
+    //     yarn add @themagician/tsconfig-base -D
+    //     pnpm add @themagician/tsconfig-base -D
+    //     \`\`\`
 
-        Then extend it in your tsconfig.json
+    //     Then extend it in your tsconfig.json
 
-        \`\`\`json
-        {
-          "extends": "@themagician/${name}/tsconfig.json",
-          "compilerOptions": {
-            "noEmit": true,
-            "strict": true
-          }
-        }
-        \`\`\`\n
-      `
-    }
+    //     \`\`\`json
+    //     {
+    //       "extends": "@themagician/${name}/tsconfig.json",
+    //       "compilerOptions": {
+    //         "noEmit": true,
+    //         "strict": true
+    //       }
+    //     }
+    //     \`\`\`\n
+    //   `
+    // }
 
-    parsedMd[`${name} configuration`] = {
-      raw: `\n\`\`\`json\n${tsconfigJsonContent}\n\`\`\`\n
-      `
+
+
+    let otherPackageContent = '\n'
+
+    files.map((filePath) => path.basename(path.dirname(filePath))).filter((packageName) => packageName !== name).forEach(packageName => {
+      otherPackageContent += `- [@themagician/${packageName}](https://www.npmjs.com/package/@themagician/${packageName})\n`
+    });
+
+    otherPackageContent += '\n'
+
+    parsedMd[`Other packages`] = {
+      raw: otherPackageContent
     }
 
     const newMdContent = md2json.toMd(parsedMd)

@@ -1,6 +1,6 @@
 # tsconfig-node
 
-![the magician tsconfig-node banner](./imgs/banner.png)
+![the magician tsconfig-node banner](/packages/tsconfig-node/imgs/banner.png)
 
 [repo](https://github.com/TheMagicianDev/tsconfig), [npm](https://www.npmjs.com/package/@themagician/tsconfig-node)
 
@@ -29,10 +29,19 @@ Then extend it in your tsconfig.json
 ```
 # tsconfig-node configuration
 
-
 ```json
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@themagician/tsconfig/base.json"
 }
 ```
+
+# Other packages
+
+- [@themagician/tsconfig-base](https://www.npmjs.com/package/@themagician/tsconfig-base)
+- [@themagician/tsconfig-jest](https://www.npmjs.com/package/@themagician/tsconfig-jest)
+- [@themagician/tsconfig-pacakage-isomorphic](https://www.npmjs.com/package/@themagician/tsconfig-pacakage-isomorphic)
+- [@themagician/tsconfig-package-node-esm](https://www.npmjs.com/package/@themagician/tsconfig-package-node-esm)
+- [@themagician/tsconfig-package-node-cjs](https://www.npmjs.com/package/@themagician/tsconfig-package-node-cjs)
+- [@themagician/tsconfig-package-browser](https://www.npmjs.com/package/@themagician/tsconfig-package-browser)
+

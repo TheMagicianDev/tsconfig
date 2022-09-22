@@ -2,14 +2,14 @@
 
 ![the magician tsconfig configurations banner](./imgs/theMagicianTsconfig_banner.png)
 
-[Repo](https://github.com/TheMagicianDev/tsconfig), npm
+[Repo](https://github.com/TheMagicianDev/tsconfig)
 
 
 Different Base tsconfig configurations used by the magician project. You can check otherwise [@tsconfig project](https://github.com/tsconfig/bases) that is like @types for tsconfig. Know too that having a personal base files can be always more productive.
 
 Individual packages:
 
-[tsconfig-base](), [tsconfig-package-node-esm](), [tsconfig-package-node-cjs](), [tsconfing-jest](),
+[tsconfig-base](https://www.npmjs.com/package/@themagician/tsconfig-base), [tsconfig-package-node-esm](https://www.npmjs.com/package/@themagician/tsconfig-package-node-esm), [tsconfig-package-node-cjs](https://www.npmjs.com/package/@themagician/tsconfig-package-node-cjs), [tsconfing-jest](https://www.npmjs.com/package/@themagician/tsconfing-jest),
 
 # Usage and packages
 

@@ -1,6 +1,6 @@
 # tsconfig-jest
 
-![the magician tsconfig-jest banner](./imgs/banner.png)
+![the magician tsconfig-jest banner](/packages/tsconfig-jest/imgs/banner.png)
 
 [repo](https://github.com/TheMagicianDev/tsconfig), [npm](https://www.npmjs.com/package/@themagician/tsconfig-jest)
 
@@ -36,3 +36,13 @@ Then extend it in your tsconfig.json
   "extends": "@themagician/tsconfig-base"
 }
 ```
+
+# Other packages
+
+- [@themagician/tsconfig-node](https://www.npmjs.com/package/@themagician/tsconfig-node)
+- [@themagician/tsconfig-base](https://www.npmjs.com/package/@themagician/tsconfig-base)
+- [@themagician/tsconfig-pacakage-isomorphic](https://www.npmjs.com/package/@themagician/tsconfig-pacakage-isomorphic)
+- [@themagician/tsconfig-package-node-esm](https://www.npmjs.com/package/@themagician/tsconfig-package-node-esm)
+- [@themagician/tsconfig-package-node-cjs](https://www.npmjs.com/package/@themagician/tsconfig-package-node-cjs)
+- [@themagician/tsconfig-package-browser](https://www.npmjs.com/package/@themagician/tsconfig-package-browser)
+
