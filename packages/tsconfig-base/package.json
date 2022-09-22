@@ -1,6 +1,6 @@
 {
   "name": "@themagician/tsconfig-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A base tsconfig configuration that you can override.",
   "main": "tsconfig.json",
   "private": false,
