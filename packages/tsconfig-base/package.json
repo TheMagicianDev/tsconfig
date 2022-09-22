@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint tsconfig.json",
     "fix": "eslint tsconfig.json --fix",
-    "publish": "pnpm publish"
+    "publish": "pnpm publish --access"
   },
   "repository": {
     "type": "git",
