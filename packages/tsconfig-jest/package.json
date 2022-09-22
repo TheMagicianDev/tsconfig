@@ -5,7 +5,8 @@
   "main": "tsconfig.json",
   "scripts": {
     "lint": "eslint tsconfig.json",
-    "fix": "eslint tsconfig.json --fix"
+    "fix": "eslint tsconfig.json --fix",
+    "publish": "pnpm publish"
   },
   "repository": {
     "type": "git",
