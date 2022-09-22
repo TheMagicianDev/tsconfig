@@ -1,6 +1,6 @@
 {
   "name": "@themagician/tsconfig",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Different Base tsconfig configurations used by The Magician Project. You can check otherwise @tsconfig project that is like @types for tsconfig. Know too that having a personal base files can be always more productive.",
   "keywords": [
     "tsconfig",
@@ -27,20 +27,12 @@
     "@changesets/cli": "^2.24.4",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@types/jest": "^28.1.7",
-    "@types/node": "^18.7.18",
-    "@typescript-eslint/eslint-plugin": "^5.30.6",
-    "@typescript-eslint/parser": "^5.37.0",
     "eslint": "^8.19.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsonc": "^2.4.0",
     "eslint-plugin-prettier": "^4.2.1",
     "lefthook": "^1.1.1",
     "prettier": "^2.7.1",
-    "ts-node": "^10.9.1",
     "turbo": "^1.4.7",
     "typescript": "^4.7.4"
   }
