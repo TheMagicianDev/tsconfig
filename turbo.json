@@ -3,6 +3,12 @@
   "pipeline": {
     "lint": {
       "outputs": []
+    },
+    "fix": {
+      "outputs": []
+    },
+    "publish": {
+      "outputs": []
     }
   }
 }

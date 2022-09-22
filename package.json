@@ -17,12 +17,12 @@
   "license": "MIT",
   "author": "TheMagician <themagicianproject2022@gmail.com>, Mohamed Lamine Allal <allalmohamedlamine@gmail.com>",
   "scripts": {
-    "commitlint": "npx commitlint --edit",
-    "fix": "turbo run format --parallel",
-    "lefthook:update": "npx lefthook install",
-    "lint": "turbo run lint",
     "prepare": "npx lefthook install",
-    "publish": "turbo run publish"
+    "lint": "turbo run lint",
+    "fix": "turbo run format --parallel",
+    "commitlint": "npx commitlint --edit",
+    "publish": "turbo run publish",
+    "lefthook:update": "npx lefthook install"
   },
   "devDependencies": {
     "@changesets/cli": "^2.24.4",
