@@ -1,6 +1,6 @@
 {
   "name": "@themagician/tsconfig-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A base tsconfig configuration for node based modules or applications that you can override.",
   "main": "tsconfig.json",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/TheMagicianDev/tsconfig.git"
   },
   "dependencies": {
-    "@themagician/tsconfig-base": "^1.0.3"
+    "@themagician/tsconfig-base": "^1.0.5"
   },
   "keywords": [
     "tsconfig-node",
