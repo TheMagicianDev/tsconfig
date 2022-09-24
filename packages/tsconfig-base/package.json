@@ -22,6 +22,6 @@
   "scripts": {
     "fix": "eslint tsconfig.json --fix",
     "lint": "eslint tsconfig.json",
-    "publish": "npx ttab \"pnpm publish --access public\""
+    "publish": "npx ttab -w \"pnpm publish --access public\""
   }
 }
