@@ -1,5 +1,11 @@
 # @themagician/tsconfig-node
 
+## 1.0.2
+
+### Patch Changes
+
+- c302d0f: update documentation to include other packages
+
 ## 1.0.1
 
 ### Patch Changes
