@@ -5,8 +5,7 @@
   "main": "tsconfig.json",
   "scripts": {
     "lint": "eslint tsconfig.json",
-    "fix": "eslint tsconfig.json --fix",
-    "publish": "npx ttab -w \"pnpm publish --access public\""
+    "fix": "eslint tsconfig.json --fix"
   },
   "dependencies": {
     "@themagician/tsconfig-base": "^1.0.5"
