@@ -23,7 +23,9 @@
     "lefthook:update": "npx lefthook install",
     "lint": "turbo run lint",
     "prepare": "npx lefthook install",
-    "publish": "turbo run publish"
+    "publish:changeset": "npx changeset",
+    "publish:changeset:version": "npx changeset version",
+    "publish:changeset:publish": "npx changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.24.4",
