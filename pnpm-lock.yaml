@@ -22,6 +22,7 @@ importers:
       lefthook: ^1.1.1
       md-2-json: ^2.0.0
       prettier: ^2.7.1
+      ttab: ^0.7.3
       turbo: ^1.4.7
       typescript: ^4.7.4
     devDependencies:
@@ -43,6 +44,7 @@ importers:
       lefthook: 1.1.1
       md-2-json: 2.0.0
       prettier: 2.7.1
+      ttab: 0.7.3
       turbo: 1.4.7
       typescript: 4.8.3
 
@@ -50,10 +52,16 @@ importers:
     specifiers: {}
 
   packages/tsconfig-jest:
-    specifiers: {}
+    specifiers:
+      '@themagician/tsconfig-base': ^1.0.3
+    dependencies:
+      '@themagician/tsconfig-base': link:../tsconfig-base
 
   packages/tsconfig-node:
-    specifiers: {}
+    specifiers:
+      '@themagician/tsconfig-base': ^1.0.3
+    dependencies:
+      '@themagician/tsconfig-base': link:../tsconfig-base
 
   packages/tsconfig-pacakage-isomorphic:
     specifiers: {}
@@ -62,10 +70,16 @@ importers:
     specifiers: {}
 
   packages/tsconfig-package-node-cjs:
-    specifiers: {}
+    specifiers:
+      '@themagician/tsconfig-base': ^1.0.3
+    dependencies:
+      '@themagician/tsconfig-base': link:../tsconfig-base
 
   packages/tsconfig-package-node-esm:
-    specifiers: {}
+    specifiers:
+      '@themagician/tsconfig-base': ^1.0.3
+    dependencies:
+      '@themagician/tsconfig-base': link:../tsconfig-base
 
 packages:
 
@@ -3075,6 +3089,12 @@ packages:
     dependencies:
       tslib: 1.14.1
       typescript: 4.8.3
+    dev: true
+
+  /ttab/0.7.3:
+    resolution: {integrity: sha512-R3vtCd+C11wgA+qAoyxDNuRItVPrgP04PMbAKD2nvs3lSCgPFRpSmu0Rlb8yOhxU3Q6n8GZUHMd5txrzfBTceg==}
+    os: [darwin, linux]
+    hasBin: true
     dev: true
 
   /tty-table/4.1.6:
