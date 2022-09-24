@@ -47,7 +47,9 @@ Then extend it in your tsconfig.json
 - [@themagician/tsconfig-base](https://www.npmjs.com/package/@themagician/tsconfig-base)
 - [@themagician/tsconfig-package-node-esm](https://www.npmjs.com/package/@themagician/tsconfig-package-node-esm)
 - [@themagician/tsconfig-package-node-cjs](https://www.npmjs.com/package/@themagician/tsconfig-package-node-cjs)
-
+- [@themagician/tsconfig-react](https://www.npmjs.com/package/@themagician/tsconfig-react)
+- [@themagician/tsconfig-browser](https://www.npmjs.com/package/@themagician/tsconfig-browser)
+- [@themagician/tsconfig-isomorphic](https://www.npmjs.com/package/@themagician/tsconfig-isomorphic)
 
 # @themagician/tsconfig repo
 
