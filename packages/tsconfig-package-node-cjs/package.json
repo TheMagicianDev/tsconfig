@@ -6,7 +6,10 @@
   "scripts": {
     "lint": "eslint tsconfig.json",
     "fix": "eslint tsconfig.json --fix",
-    "publish": "pnpm publish"
+    "publish": "npx ttab \"pnpm publish --access public\""
+  },
+  "dependencies": {
+    "@themagician/tsconfig-base": "^1.0.3"
   },
   "repository": {
     "type": "git",

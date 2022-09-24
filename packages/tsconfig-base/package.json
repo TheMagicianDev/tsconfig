@@ -1,18 +1,8 @@
 {
   "name": "@themagician/tsconfig-base",
-  "version": "1.0.3",
-  "description": "A base tsconfig configuration that you can override.",
-  "main": "tsconfig.json",
+  "version": "1.0.4",
   "private": false,
-  "scripts": {
-    "lint": "eslint tsconfig.json",
-    "fix": "eslint tsconfig.json --fix",
-    "publish": "pnpm publish --access public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheMagicianDev/tsconfig.git"
-  },
+  "description": "A base tsconfig configuration that you can override.",
   "keywords": [
     "tsconfig-base",
     "tsconfig",
@@ -22,6 +12,16 @@
     "TheMagicianProject",
     "TheMagicianDev"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMagicianDev/tsconfig.git"
+  },
+  "license": "MIT",
   "author": "TheMagician <themagicianproject2022@gmail.com>, Mohamed Lamine Allal <allalmohamedlamine@gmail.com>",
-  "license": "MIT"
+  "main": "tsconfig.json",
+  "scripts": {
+    "fix": "eslint tsconfig.json --fix",
+    "lint": "eslint tsconfig.json",
+    "publish": "npx ttab \"pnpm publish --access public\""
+  }
 }

@@ -1,41 +1,43 @@
-# tsconfig-base
+# tsconfig-isomorphic
 
-![the magician tsconfig-package-node-cjs banner](/packages/tsconfig-package-node-cjs/imgs/banner.png)
+![the magician tsconfig-isomorphic banner](/packages/tsconfig-isomorphic/imgs/banner.png)
 
-[repo](https://github.com/TheMagicianDev/tsconfig), [npm](https://www.npmjs.com/package/@themagician/tsconfig-package-node-cjs)
+[repo](https://github.com/TheMagicianDev/tsconfig), [npm](https://www.npmjs.com/package/@themagician/tsconfig-isomorphic)
 
-A base tsconfig configuration for a node package project for a cjs build, that you can override.
+A base tsconfig configuration for a module that support both the browser and node at the same time (aka isomorphic module), that you can override.
 
 # Usage:
 
 Install the package:
 
 ```sh
-npm install @themagician/tsconfig-package-node-cjs -D
-yarn add @themagician/tsconfig-package-node-cjs -D
-pnpm add @themagician/tsconfig-package-node-cjs -D
+npm install @themagician/tsconfig-isomorphic -D
+yarn add @themagician/tsconfig-isomorphic -D
+pnpm add @themagician/tsconfig-isomorphic -D
 ```
 
 Then extend it in your tsconfig.json
 
 ```json
 {
-  "extends": "@themagician/tsconfig-package-node-cjs",
+  "extends": "@themagician/tsconfig-isomorphic",
   "compilerOptions": {
     "noEmit": true,
     "strict": true
   }
 }
 ```
-# tsconfig-package-node-cjs configuration
+# tsconfig-isomorphic configuration
 
 ```json
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@themagician/tsconfig-base",
   "compilerOptions": {
-    "module": "CommonJS",
-    "outDir": "dist/cjs"
+    "lib": ["ESNext"],
+    "target": "ES5",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
   }
 }
 ```
@@ -45,9 +47,9 @@ Then extend it in your tsconfig.json
 - [@themagician/tsconfig-base](https://www.npmjs.com/package/@themagician/tsconfig-base)
 - [@themagician/tsconfig-node](https://www.npmjs.com/package/@themagician/tsconfig-node)
 - [@themagician/tsconfig-package-node-esm](https://www.npmjs.com/package/@themagician/tsconfig-package-node-esm)
+- [@themagician/tsconfig-package-node-cjs](https://www.npmjs.com/package/@themagician/tsconfig-package-node-cjs)
 - [@themagician/tsconfig-react](https://www.npmjs.com/package/@themagician/tsconfig-react)
 - [@themagician/tsconfig-browser](https://www.npmjs.com/package/@themagician/tsconfig-browser)
-- [@themagician/tsconfig-isomorphic](https://www.npmjs.com/package/@themagician/tsconfig-isomorphic)
 
 
 # @themagician/tsconfig repo

@@ -1,16 +1,19 @@
 {
   "name": "@themagician/tsconfig-node",
   "version": "1.0.0",
-  "description": "A base tsconfig configuration for node based applications that you can override.",
+  "description": "A base tsconfig configuration for node based modules or applications that you can override.",
   "main": "tsconfig.json",
   "scripts": {
     "lint": "eslint tsconfig.json",
     "fix": "eslint tsconfig.json --fix",
-    "publish": "pnpm publish"
+    "publish": "npx ttab \"pnpm publish --access public\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheMagicianDev/tsconfig.git"
+  },
+  "dependencies": {
+    "@themagician/tsconfig-base": "^1.0.3"
   },
   "keywords": [
     "tsconfig-node",
