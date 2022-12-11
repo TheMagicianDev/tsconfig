@@ -51,33 +51,39 @@ importers:
   packages/tsconfig-base:
     specifiers: {}
 
-  packages/tsconfig-jest:
+  packages/tsconfig-browser:
     specifiers:
-      '@themagician/tsconfig-base': ^1.0.3
+      '@themagician/tsconfig-base': workspace:*
+    dependencies:
+      '@themagician/tsconfig-base': link:../tsconfig-base
+
+  packages/tsconfig-isomorphic:
+    specifiers:
+      '@themagician/tsconfig-base': workspace:*
     dependencies:
       '@themagician/tsconfig-base': link:../tsconfig-base
 
   packages/tsconfig-node:
     specifiers:
-      '@themagician/tsconfig-base': ^1.0.3
+      '@themagician/tsconfig-base': workspace:*
     dependencies:
       '@themagician/tsconfig-base': link:../tsconfig-base
 
-  packages/tsconfig-pacakage-isomorphic:
-    specifiers: {}
-
-  packages/tsconfig-package-browser:
-    specifiers: {}
-
   packages/tsconfig-package-node-cjs:
     specifiers:
-      '@themagician/tsconfig-base': ^1.0.3
+      '@themagician/tsconfig-base': workspace:*
     dependencies:
       '@themagician/tsconfig-base': link:../tsconfig-base
 
   packages/tsconfig-package-node-esm:
     specifiers:
-      '@themagician/tsconfig-base': ^1.0.3
+      '@themagician/tsconfig-base': workspace:*
+    dependencies:
+      '@themagician/tsconfig-base': link:../tsconfig-base
+
+  packages/tsconfig-react:
+    specifiers:
+      '@themagician/tsconfig-base': workspace:*
     dependencies:
       '@themagician/tsconfig-base': link:../tsconfig-base
 
