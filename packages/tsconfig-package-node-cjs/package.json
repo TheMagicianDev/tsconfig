@@ -8,7 +8,7 @@
     "fix": "eslint tsconfig.json --fix"
   },
   "dependencies": {
-    "@themagician/tsconfig-base": "^1.0.5"
+    "@themagician/tsconfig-base": "workspace:*"
   },
   "repository": {
     "type": "git",

@@ -12,7 +12,7 @@
     "url": "git+https://github.com/TheMagicianDev/tsconfig.git"
   },
   "dependencies": {
-    "@themagician/tsconfig-base": "^1.0.5"
+    "@themagician/tsconfig-base": "workspace:*"
   },
   "keywords": [
     "tsconfig-node",

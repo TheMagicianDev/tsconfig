@@ -7,6 +7,9 @@
     "lint": "eslint tsconfig.json",
     "fix": "eslint tsconfig.json --fix"
   },
+  "dependencies": {
+    "@themagician/tsconfig-base": "workspace:*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheMagicianDev/tsconfig.git"
