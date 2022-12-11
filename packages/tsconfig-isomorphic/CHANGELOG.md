@@ -1,5 +1,11 @@
 # @themagician/tsconfig-isomorphic
 
+## 1.0.2
+
+### Patch Changes
+
+- 03d65a8: Added base package as a dependency
+
 ## 1.0.1
 
 ### Patch Changes

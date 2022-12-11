@@ -1,6 +1,6 @@
 {
   "name": "@themagician/tsconfig-isomorphic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A base tsconfig configuration for an isomorphic module, package project (nodejs + browser) that you can override.",
   "main": "tsconfig.json",
   "scripts": {
