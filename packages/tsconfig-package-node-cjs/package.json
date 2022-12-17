@@ -1,6 +1,6 @@
 {
   "name": "@themagician/tsconfig-package-node-cjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A base tsconfig configuration for a node package project for a cjs build, that you can override.",
   "main": "tsconfig.json",
   "scripts": {

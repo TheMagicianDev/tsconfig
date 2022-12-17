@@ -1,5 +1,13 @@
 # @themagician/tsconfig-package-node-esm
 
+## 1.0.5
+
+### Patch Changes
+
+- 872628a: remove private property from package.json
+- Updated dependencies [872628a]
+  - @themagician/tsconfig-base@1.0.6
+
 ## 1.0.4
 
 ### Patch Changes

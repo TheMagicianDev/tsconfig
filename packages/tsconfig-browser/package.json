@@ -1,6 +1,6 @@
 {
   "name": "@themagician/tsconfig-browser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A base tsconfig configuration for a browser module or application, that you can override.",
   "main": "tsconfig.json",
   "scripts": {

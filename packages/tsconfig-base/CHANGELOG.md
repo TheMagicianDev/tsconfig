@@ -1,5 +1,11 @@
 # @themagician/tsconfig-base
 
+## 1.0.6
+
+### Patch Changes
+
+- 872628a: remove private property from package.json
+
 ## 1.0.5
 
 ### Patch Changes
