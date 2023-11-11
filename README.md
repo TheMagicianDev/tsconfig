@@ -15,7 +15,7 @@ Here some articles we wrote and resources that help u with the notions above:
 
 Individual packages:
 
-[tsconfig-base](https://www.npmjs.com/package/@themagician/tsconfig-base), [tsconfing-node](https://www.npmjs.com/package/@themagician/tsconfing-node), [tsconfig-package-node-esm](https://www.npmjs.com/package/@themagician/tsconfig-package-node-esm), [tsconfig-package-node-cjs](https://www.npmjs.com/package/@themagician/tsconfig-package-node-cjs), [tsconfing-react](https://www.npmjs.com/package/@themagician/tsconfing-react), [tsconfing-browser](https://www.npmjs.com/package/@themagician/tsconfing-browser), [tsconfing-isomorphic](https://www.npmjs.com/package/@themagician/tsconfing-isomorphic),
+[tsconfig-base](https://www.npmjs.com/package/@themagician/tsconfig-base), [tsconfig-node](https://www.npmjs.com/package/@themagician/tsconfig-node), [tsconfig-package-node-esm](https://www.npmjs.com/package/@themagician/tsconfig-package-node-esm), [tsconfig-package-node-cjs](https://www.npmjs.com/package/@themagician/tsconfig-package-node-cjs), [tsconfig-react](https://www.npmjs.com/package/@themagician/tsconfig-react), [tsconfig-browser](https://www.npmjs.com/package/@themagician/tsconfig-browser), [tsconfig-isomorphic](https://www.npmjs.com/package/@themagician/tsconfig-isomorphic),
 
 # Usage and packages
 
